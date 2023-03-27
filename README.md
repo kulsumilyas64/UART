@@ -10,8 +10,8 @@ int main(void)
 {
 while(1)
  {
-    HAL_UART_Receive(&huart1, buf, 10, 1000);          // Receives the data stored in buf
-	  HAL_UART_Transmit(&huart1, buf1, 10, 1000);       // Transmit the data stored in buf1
+    HAL_UART_Receive(&huart1, buf, 10, 1000);               // Receives the data stored in buf
+    HAL_UART_Transmit(&huart1, buf1, 10, 1000);            // Transmit the data stored in buf1
   }
 }
 
