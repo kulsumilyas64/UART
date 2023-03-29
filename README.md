@@ -3,8 +3,8 @@
 ```
 #include"main.h"
 
-uint8_t buf0[10];                            // Buffer created to store received 10 char 
-uint8_t buf1[] = {0,1,2,3,4,5,6,7,8,9};     //data to be transmitted stored in buf1
+uint8_t buf1[10];                            // Buffer created to store received 10 char 
+uint8_t buf[] = {0,1,2,3,4,5,6,7,8,9};     //data to be transmitted stored in buf1
 
 int main(void)
 {
