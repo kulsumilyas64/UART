@@ -17,7 +17,7 @@ while(1)
 }
 
 ```
-### 2nd Method-
+### 2nd Method-Preferred
 
 ```
 #include"main.h"
